@@ -1,0 +1,16 @@
+[
+{
+  "modid": "dfstrongerframes",
+  "name": "DeathFrog Stronger Frames",
+  "description": "Enhances some apiarist frames with stronger versions.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Ayar"],
+  "credits": "All who came before.",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
