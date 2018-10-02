@@ -1,1 +1,20 @@
 item.treatedsoulframe.name=Treated Soul Frame
+tile.chisel.wtblock.name=Tar Valon Stone
+
+tile.wtblock.name=Tar Valon Stone
+tile.wtblock.0.desc=Tar Valon Stone
+tile.wtblock.1.desc=Tar Valon Stone (Solid)
+tile.wtblock.2.desc=Tar Valon Stone (White)
+tile.wtblock.3.desc=Tar Valon Stone (White Tile)
+tile.wtblock.4.desc=Tar Valon Stone (Grey)
+tile.wtblock.5.desc=Tar Valon Stone (Grey Tile)
+tile.wtblock.6.desc=Tar Valon Stone (Blue)
+tile.wtblock.7.desc=Tar Valon Stone (Blue Tile)
+tile.wtblock.8.desc=Tar Valon Stone (Red)
+tile.wtblock.9.desc=Tar Valon Stone (Red Tile)
+tile.wtblock.10.desc=Tar Valon Stone (Brown)
+tile.wtblock.11.desc=Tar Valon Stone (Brown Tile)
+tile.wtblock.12.desc=Tar Valon Stone (Yellow)
+tile.wtblock.13.desc=Tar Valon Stone (Yellow Tile)
+tile.wtblock.14.desc=Tar Valon Stone (Green)
+tile.wtblock.15.desc=Tar Valon Stone (Green Tile)

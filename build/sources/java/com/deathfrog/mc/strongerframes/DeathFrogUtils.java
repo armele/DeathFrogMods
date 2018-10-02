@@ -7,7 +7,7 @@ import org.apache.logging.log4j.Logger;
 public class DeathFrogUtils {
 	static protected Logger logger = LogManager.getLogger(DFStrongerFrames.MODID);
 	
-	static void log(Level level, String msg) {
+	public static void log(Level level, String msg) {
 		logger.log(level, DFStrongerFrames.MODID + ": " + msg);
 	}
 	

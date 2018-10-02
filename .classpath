@@ -66,5 +66,7 @@
 	<classpathentry kind="lib" path="D:/Development/MinecraftSource/ExampleMod/libs/forestry_1.7.10-4.2.16.64.jar" sourcepath="/ForestryMC"/>
 	<classpathentry kind="lib" path="D:/Development/MinecraftSource/ExampleMod/libs/Railcraft_1.7.10-9.12.2.0.jar" sourcepath="/Railcraft"/>
 	<classpathentry kind="lib" path="D:/Development/MinecraftSource/DeathFrogMods/libs/binnie-mods-2.0-pre14.jar" sourcepath="/Binnie"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/Chisel"/>
+	<classpathentry kind="src" path="/Thaumcraft4-1.7.10"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
