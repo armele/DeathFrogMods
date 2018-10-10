@@ -50,27 +50,34 @@ public enum EnumAjahs {
     	//wtBaseBlock.carverHelper.addVariation("tile.wtblock.0.desc", 0, "wtblock/wtblock", wtBaseBlock, 0, DFStrongerFrames.MODID, (ISubmapManager) null, 0);
 		//wtBaseBlock.carverHelper.addVariation("tile.wtblock.1.desc", 1, "wtblock/wtsolid", wtBaseBlock, 0, DFStrongerFrames.MODID, (ISubmapManager) null, 1);
     	
-    	wtBaseBlock.carverHelper.addVariation("tile.wtblock.0.desc", 0, "wtblock/wtblock", 0);
-    	wtBaseBlock.carverHelper.addVariation("tile.wtblock.1.desc", 1, "wtblock/wtsolid", 1);
-    	
     	//wtBaseBlock.carverHelper.addVariation("tile.wtblock.0.desc", 0, "wtblock/wtblock", DFStrongerFrames.MODID);
     	//wtBaseBlock.carverHelper.addVariation("tile.wtblock.1.desc", 1, "wtblock/wtsolid", DFStrongerFrames.MODID);
     	
-		int i = 2;
+		int i = 0;
+		
+    	wtBaseBlock.carverHelper.addVariation("tile.wtblock."+ i +".desc", i, "wtblock/wtblock", i);
+    	
+    	i++;
 		
 		for (EnumAjahs ajah : values()) {
 			//wtBaseBlock.carverHelper.addVariation("tile.wtblock."+i+".desc", i, "wtblock/wt"+ajah.getName(), wtBaseBlock, 0, DFStrongerFrames.MODID, (ISubmapManager) null, i);
 			//wtBaseBlock.carverHelper.addVariation("tile.wtblock."+(i+1)+".desc", i+1, "wtblock/wt"+ajah.getName()+"tile", wtBaseBlock, 0, DFStrongerFrames.MODID, (ISubmapManager) null, i+1);
 			
-			wtBaseBlock.carverHelper.addVariation("tile.wtblock."+i+".desc", i, "wtblock/wt"+ajah.getName(), i);
-			wtBaseBlock.carverHelper.addVariation("tile.wtblock."+(i+1)+".desc", i+1, "wtblock/wt"+ajah.getName()+"tile", i+1);	
+			wtBaseBlock.carverHelper.addVariation("tile.wtblock."+i+".desc", i, "wtblock/wt"+ajah.getName()+"solid", i);	
 			
 			//wtBaseBlock.carverHelper.addVariation("tile.wtblock."+i+".desc", i, "wtblock/wt"+ajah.getName(), DFStrongerFrames.MODID);
 			//wtBaseBlock.carverHelper.addVariation("tile.wtblock."+(i+1)+".desc", i+1, "wtblock/wt"+ajah.getName()+"tile", DFStrongerFrames.MODID);	
 			
-			i = i + 2;
+			i++;
 		}
-
+		
+		wtBaseBlock.carverHelper.addVariation("tile.wtblock."+ (i+0) + ".desc", i+0, "wtblock/wtrune", 		i+0);  // 8
+    	wtBaseBlock.carverHelper.addVariation("tile.wtblock."+ (i+1) + ".desc", i+1, "wtblock/wtsolid", 	i+1);  // 9
+    	wtBaseBlock.carverHelper.addVariation("tile.wtblock."+ (i+2) + ".desc", i+2, "wtblock/wtbrick", 	i+2);  // 10
+    	wtBaseBlock.carverHelper.addVariation("tile.wtblock."+ (i+3) + ".desc", i+3, "wtblock/wtdiag", 		i+3);  // 11
+    	wtBaseBlock.carverHelper.addVariation("tile.wtblock."+ (i+4) + ".desc", i+4, "wtblock/wtquad", 		i+4);  // 12
+    	wtBaseBlock.carverHelper.addVariation("tile.wtblock."+ (i+5) + ".desc", i+5, "wtblock/wtsparkle", 	i+5);  // 13
+    	
 		// Carving.chisel.registerOre("wtblock", "wtblock");
         wtBaseBlock.carverHelper.registerAll(wtBaseBlock, "wtblock");
 		wtBaseBlock.carverHelper.registerOre("wtblock");
