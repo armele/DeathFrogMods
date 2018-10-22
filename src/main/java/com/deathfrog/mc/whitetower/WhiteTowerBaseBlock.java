@@ -17,8 +17,9 @@ public class WhiteTowerBaseBlock extends BlockCarvable
         this.setBlockName(blockName);
         this.setBlockTextureName(DFStrongerFrames.MODID + ":" + blockName);
         this.setCreativeTab(CreativeTabs.tabBlock);
-        this.setHardness(4.0F);
+        this.setHardness(6.0F);
         this.setHarvestLevel("pickaxe", 1);
+        this.setLightLevel(.6F);
     }
     
     public String getBlockName() {

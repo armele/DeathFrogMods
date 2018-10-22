@@ -77,6 +77,7 @@ public enum EnumAjahs {
     	wtBaseBlock.carverHelper.addVariation("tile.wtblock."+ (i+3) + ".desc", i+3, "wtblock/wtdiag", 		i+3);  // 11
     	wtBaseBlock.carverHelper.addVariation("tile.wtblock."+ (i+4) + ".desc", i+4, "wtblock/wtquad", 		i+4);  // 12
     	wtBaseBlock.carverHelper.addVariation("tile.wtblock."+ (i+5) + ".desc", i+5, "wtblock/wtsparkle", 	i+5);  // 13
+    	wtBaseBlock.carverHelper.addVariation("tile.wtblock."+ (i+6) + ".desc", i+6, "wtblock/wtsmallblock",i+6);  // 14
     	
 		// Carving.chisel.registerOre("wtblock", "wtblock");
         wtBaseBlock.carverHelper.registerAll(wtBaseBlock, "wtblock");
